@@ -1,0 +1,113 @@
+/* settings$ */
+
+.ModalDialogPopup .DialogContentTransition>.DialogContent {
+	background-image: url("../imgs/settingBG.png");
+	background-position: center center;
+	background-size: cover;
+}/* 右侧背景 */
+
+._2kbiwbjuXdmtPSK_YaZCMU {
+    color: #fff;
+    padding-inline-end: 10px;
+}/* “账户”页“好友代码”等字体*/
+
+._3qIXY674NedSZNa-CXtNlt {
+    color: #ffa9f2;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+} /* “账户”页“好友代码”后方数字等字体*/
+
+button.TEWmsM70ZLEOxLAjDMpcv ._3Wb9yDmYPUJksCr7HmaT9H {
+    font-size: 12px;
+    line-height: 20px;
+    color: #dbc1ff;
+} /* “账户”页“好友代码”后方数字等字体*/
+
+button.TEWmsM70ZLEOxLAjDMpcv svg {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    color: #f5a7ff;
+}
+
+.online .nOdcT-MoOaXGePXLyPe0H {
+    color: #ccccd5;
+    color: #ffa9fb;
+}
+
+._3jMlJm4PQCA8SfNlUR99Fo.DesktopUI, .DesktopUI ._3jMlJm4PQCA8SfNlUR99Fo {
+    font-size: 14px;
+    color: #deadff;
+    line-height: 18px;
+}
+
+._2rjVTGz8aLvqOdz5v2gq5C.DesktopUI, .DesktopUI ._2rjVTGz8aLvqOdz5v2gq5C {
+    padding-inline-end: 14px;
+    color: #d851ed;
+} /*“STEAM”设定字体*/
+
+._1W1to_azoBRG95oNAFpf9Q.DesktopUI, .DesktopUI ._1W1to_azoBRG95oNAFpf9Q {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.SettingsDialogSubHeader {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 36px;
+    text-transform: uppercase;
+    user-select: none;
+    margin-inline-end: 26px;
+}
+
+._3fPiC9QRyT5oJ6xePCVYz8._3fPiC9QRyT5oJ6xePCVYz8.DesktopUI, .DesktopUI ._3fPiC9QRyT5oJ6xePCVYz8._3fPiC9QRyT5oJ6xePCVYz8 {
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+._3w92Ej5Kq7nbt5WACQ6jwI.DesktopUI, .DesktopUI ._3w92Ej5Kq7nbt5WACQ6jwI {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 12px;
+    margin-top: 0;
+}
+
+/*hover效果*/
+.DesktopUI ._1-vlriAtKYDViAEunue4VO:hover:not(._2DpXjzK3WWsOtUWUrcuOG7) {
+  background: rgba(255, 255, 255, 0.191);
+  color: #de73dd;
+}/* 设置页面左侧文字hover效果 */
+.DesktopUI ._1-vlriAtKYDViAEunue4VO:hover:not(._2DpXjzK3WWsOtUWUrcuOG7) ._1rD8X96FdnksZLvRRlEiCR {
+  color: #de73dd; 
+}/* 设置页面左侧图标hover效果 */
+
+/*选中效果*/
+body:has(._1-vlriAtKYDViAEunue4VO) ._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7 {
+    color: #d851ed;
+    background:;
+    border-right: 4px solid #d851ed;
+}/* 设置页面左侧文字选中效果 */
+body:has(._1-vlriAtKYDViAEunue4VO) ._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7 ._1rD8X96FdnksZLvRRlEiCR {
+    color: #d851ed;
+}/* 设置页面左侧文字选中效果 */
+
+/*家庭成員背景*/
+._2LyGIHuQ8SFKb5T262YUvg {
+    display: flex;
+    flex-direction: column;
+    background-color: #56495a2b;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px;
+    transition: height .5s;
+}

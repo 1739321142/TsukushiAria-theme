@@ -1,0 +1,10 @@
+/*定义STEAM商店页 */
+@import url(../global.css);
+
+body {
+	background: rgba(0, 0, 0, 0.1) !important;
+}/*定义商店页背景色 */
+
+.apphub_background {
+    background: rgba(0, 0, 0, 0.1) !important;
+}/*定义社群页背景色 */

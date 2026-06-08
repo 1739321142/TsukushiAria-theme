@@ -1,0 +1,31 @@
+/*“商店”栏菜单设置*/
+
+
+._3pofGqV0buiKAfMPEs3_82 ._1n7Wloe5jZ6fSuvV18NNWI:hover {
+    background: rgb(213, 179, 201) !important;
+    color: rgb(176, 39, 181) !important;
+}/* hover效果 */
+
+
+/*._3pofGqV0buiKAfMPEs3_82 hr {
+    display: none;
+}/* 隐藏分割线 */
+
+
+._3pofGqV0buiKAfMPEs3_82 ._1n7Wloe5jZ6fSuvV18NNWI {
+    color: rgb(0, 0, 0) !important;
+}/* 下拉菜单背景 */
+
+/* 圆角添加 */
+body.ContextMenuPopupBody .PP7LM0Ow1K5qkR8WElLpt {
+    background: transparent !important;
+}
+body.ContextMenuPopupBody ._2EstNjFIIZm_WUSKm5Wt7n {
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
+
+.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI,
+._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI {
+    color: #ffffff !important;
+}/* 下拉菜单字体 */

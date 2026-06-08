@@ -1,0 +1,38 @@
+/*顶栏、底部任务栏右键菜单设置*/
+
+
+/*设置圆角*/
+body.ContextMenuPopupBody .PP7LM0Ow1K5qkR8WElLpt {
+    background: transparent !important;
+}
+body.ContextMenuPopupBody ._2EstNjFIIZm_WUSKm5Wt7n {
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
+.DesktopUI .PP7LM0Ow1K5qkR8WElLpt,
+._3qIuY9S_vXm3IQS-uE9SRS .PP7LM0Ow1K5qkR8WElLpt {
+    background: rgb(0, 0, 0) !important;
+} 
+
+
+body.ContextMenuPopupBody .PP7LM0Ow1K5qkR8WElLpt.visible ._2EstNjFIIZm_WUSKm5Wt7n {
+    background: rgb(0, 0, 0) !important;
+    opacity: 1;
+    transform: translateY(0);
+} /*背景色*/
+
+
+._2EstNjFIIZm_WUSKm5Wt7n ._2jXHP0742MyApMUVUM8IFn:hover {
+    background: rgba(180, 153, 212, 0.36) !important;
+    color: rgb(255, 0, 208) !important;
+}/*上方hover效果 */
+
+.DesktopUI:has(._1n7Wloe5jZ6fSuvV18NNWI) ._1n7Wloe5jZ6fSuvV18NNWI:hover {
+    background: rgba(180, 153, 212, 0.36) !important;
+    color: rgb(255, 0, 208) !important;
+}/*最小化hover效果 */
+
+
+/*._2EstNjFIIZm_WUSKm5Wt7n:has(hr) hr {
+    display: none;
+}/* 隐藏分割线 */
