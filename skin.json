@@ -10,8 +10,8 @@
         "owner": "",
         "repo_name": ""
     },
-    "header_image": "https://i.imgur.com/image_here.png",
-    "splash_image": "https://i.imgur.com/image_here.png",
+    "header_image": "../imgs/header_image.jpg",
+    "splash_image": "../imgs/splash_image.jpg",
     "tags": [
         "",
         ""
