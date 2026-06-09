@@ -1,7 +1,7 @@
 {
     "name": "TsukushiAria",
-    "author": "蝴蝶飞咖啡",
-    "description": "天才無敵の最強ネクロマンサー👻✩⡱ チョロい大人たちを虜にしちゃお〜と思います💜",
+    "author": "muamuamua",
+    "description": "The genius, unrivaled, ultimate necromancer! 👻✩⡱ I think I'm gonna completely captivate all those pushover adults~ 💜",
 
     "discord_support": {
         "inviteCodeExcludingLink": ""
@@ -10,8 +10,8 @@
         "owner": "1739321142",
         "repo_name": "TsukushiAria-theme"
     },
-    "header_image": "../imgs/header_image.jpg",
-    "splash_image": "../imgs/splash_image.jpg",
+    "header_image": "https://raw.githubusercontent.com/1739321142/TsukushiAria-theme/refs/heads/main/imgs/header_image.jpg",
+    "splash_image": "https://raw.githubusercontent.com/1739321142/TsukushiAria-theme/refs/heads/main/imgs/splash_image.png",
     "tags": [
         "Purple",
         "Light",
