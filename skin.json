@@ -1,20 +1,22 @@
 {
     "name": "TsukushiAria",
-    "author": "",
-    "description": "",
+    "author": "蝴蝶飞咖啡",
+    "description": "天才無敵の最強ネクロマンサー👻✩⡱ チョロい大人たちを虜にしちゃお〜と思います💜",
 
     "discord_support": {
         "inviteCodeExcludingLink": ""
     },
     "github": {
-        "owner": "",
-        "repo_name": ""
+        "owner": "1739321142",
+        "repo_name": "TsukushiAria-theme"
     },
     "header_image": "../imgs/header_image.jpg",
     "splash_image": "../imgs/splash_image.jpg",
     "tags": [
-        "",
-        ""
+        "Purple",
+        "Light",
+        "Vtuber",
+        "Anime"
     ],
     "version": "1.0.0",
 
