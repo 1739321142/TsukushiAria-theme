@@ -6,9 +6,9 @@ This is my very first time creating a custom Steam theme! I made this by followi
 The theme centers around the VTuber **Tsukushi Aria (月紫アリア)**. Please check out and support her official X (Twitter) profile here: [@tsukushi_aria](https://x.com/tsukushi_aria).
 
 ## 📸 Preview
-<img width="2559" height="1599" alt="image" src="https://github.com/user-attachments/assets/c054bce8-86cb-4f9d-a42b-ac69d8bca791" />
+<img width="2559" height="1599" alt="image" src="https://github.com/user-attachments/assets/64ffba3a-baa4-4a7a-abcf-7c3bb4b1ab00" />
 <img width="2559" height="1599" alt="image" src="https://github.com/user-attachments/assets/9ee24e9d-0c0f-44bb-855e-263d65ef64dd" />
-<img width="2535" height="1599" alt="image" src="https://github.com/user-attachments/assets/4a93c5e0-d6c6-4eb3-accf-8f1da62c2c28" />
+<img width="2559" height="1599" alt="image" src="https://github.com/user-attachments/assets/865c6a99-529a-4a20-b733-7f7e0cbb3148" />
 <img width="2559" height="1599" alt="image" src="https://github.com/user-attachments/assets/0fa31386-dbde-466a-a29e-6f35f18992f8" />
 
 ## 🛠️ How to Use
