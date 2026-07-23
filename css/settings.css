@@ -6,40 +6,46 @@
 	background-size: cover;
 }/* 右侧背景 */
 
+/* “账户”页“好友代码”等字体*/
 ._2kbiwbjuXdmtPSK_YaZCMU {
     color: #fff;
     padding-inline-end: 10px;
-}/* “账户”页“好友代码”等字体*/
+}
 
+/* “账户”页“好友代码”后方数字等字体*/
 ._3qIXY674NedSZNa-CXtNlt {
-    color: #ffa9f2;
+    color: #fcc9ff;
     font-weight: 400;
     font-size: 12px;
     line-height: 19px;
-} /* “账户”页“好友代码”后方数字等字体*/
+    text-shadow: 0 1px 3px rgb(0 0 0 / 80%);
+}
 
-button.TEWmsM70ZLEOxLAjDMpcv ._3Wb9yDmYPUJksCr7HmaT9H {
+/* “账户”页“当前余额等字体*/
+button.TEWmsM70ZLEOxLAjDMpcv.TEWmsM70ZLEOxLAjDMpcv ._3Wb9yDmYPUJksCr7HmaT9H {
     font-size: 12px;
     line-height: 20px;
-    color: #dbc1ff;
-} /* “账户”页“好友代码”后方数字等字体*/
-
-button.TEWmsM70ZLEOxLAjDMpcv svg {
-    height: 40px;
-    width: 40px;
-    margin: 10px;
-    color: #f5a7ff;
+    color: #f8caff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+/* “好友名称示例”*/
 .online .nOdcT-MoOaXGePXLyPe0H {
     color: #ccccd5;
-    color: #ffa9fb;
+    color: #ffb800;
 }
 
+/* “在线”*/
+.online ._2Ri005Wg_uXDTa71kdRbcN, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active, .online ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited {
+    color: #ffb800;
+}
+
+/* 全局中字体*/
 ._3jMlJm4PQCA8SfNlUR99Fo.DesktopUI, .DesktopUI ._3jMlJm4PQCA8SfNlUR99Fo {
     font-size: 14px;
-    color: #deadff;
+    color: #f99eff;
     line-height: 18px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 ._2rjVTGz8aLvqOdz5v2gq5C.DesktopUI, .DesktopUI ._2rjVTGz8aLvqOdz5v2gq5C {
@@ -102,7 +108,7 @@ body:has(._1-vlriAtKYDViAEunue4VO) ._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcu
 }/* 设置页面左侧文字选中效果 */
 
 /*家庭成員背景*/
-._2LyGIHuQ8SFKb5T262YUvg {
+._2LyGIHuQ8SFKb5T262YUvg .TEWmsM70ZLEOxLAjDMpcv.TEWmsM70ZLEOxLAjDMpcv.DialogButton {
     display: flex;
     flex-direction: column;
     background-color: #56495a2b;
@@ -110,4 +116,24 @@ body:has(._1-vlriAtKYDViAEunue4VO) ._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcu
     margin-bottom: 10px;
     padding: 12px;
     transition: height .5s;
+}
+
+/*“充值”3背景*/
+button.TEWmsM70ZLEOxLAjDMpcv.TEWmsM70ZLEOxLAjDMpcv.DialogButton {
+    background-color: #56495a2b;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/*“好友代码”+全背景*/
+.eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI {
+    background: #56495a2b;
+}
+
+/*“下载页”游戏更新背景*/
+._3Vl2zkYPoCpw1q_1n28D3z {
+    border-radius: 2px;
+    background-color: #56495a2b;
+    padding: 12px 10px;
+    margin-bottom: 4px;
 }
