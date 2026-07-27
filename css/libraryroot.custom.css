@@ -86,6 +86,7 @@
 	background: linear-gradient(to right, rgba(41, 47, 59, 0.2) 40%, rgba(62, 78, 105, 0) 100%) !important;
 }/*游戏分组标签第一类*/
 
+/*顶栏“商店”栏选中效果*/
 ._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ {
     color: #d51aff;
     text-shadow: 0px 0px 1px #ff1ac6;
@@ -102,7 +103,6 @@
     border-radius: 3px;
     animation: _2wrHkBHr-Qiwn2S5A_vFDw .1s;
 }/*下方小横杆*/
-/*顶栏“商店”栏选中效果*/
 
 ._2-O4ZG0KrnSrzISHBKctFQ._5YTBr7WwIfzVU_3nUtAph {
     color: #8a748a;
@@ -114,8 +114,12 @@
     font-family: "wuxin";
 }/*已下载游戏字体*/ 
 
+
+
 /*==================================================================================*/ 
-/*右侧背景小字*/ 
+/*⬇️主页游戏页⬇️*/ 
+
+/*右侧“新情报速递”下方标题*/ 
 ._1Gu1U2_kcg3AWLrXQgX5S6 div.DVBcpUzJ0x6kaRMfug0OJ {
     font-size: 15px;
     font-weight: 300;
@@ -129,8 +133,44 @@
     -webkit-box-orient: vertical;
 }
 
+/*==================================================================================*/ 
+/*⬇️具体游戏页⬇️*/ 
 
 /*好友游戏时长字体*/
 ._1GCZAht_W2I3Elndk5cU0- ._1xGH4bGLz6sI7erzB8VWff {
     color: rgb(228, 109, 210) !important;
+    text-shadow: 0 1px 2px rgb(255, 255, 255);
+}
+
+/*好友正在玩游戏名*/
+.ingame.awayOrSnooze ._2Ri005Wg_uXDTa71kdRbcN, .ingame ._2Ri005Wg_uXDTa71kdRbcN, .ingame ._2Ri005Wg_uXDTa71kdRbcN a, .ingame ._2Ri005Wg_uXDTa71kdRbcN a:hover, .ingame ._2Ri005Wg_uXDTa71kdRbcN a:active, .ingame ._2Ri005Wg_uXDTa71kdRbcN a:visited {
+    color: #afff4b;
+}
+
+/*“。。。位好友正在玩”字样*/
+element.style {
+}
+._39bm0CkBxBjJsnPpAzoZlv .nTb1NqsRSnwl0UTOYn_JA {
+    color: #e887ff;
+    font-size: 13px;
+    padding-bottom: 2px;
+    text-shadow: 0px 1px 2px rgb(255, 255, 255);
+}
+
+/*“动态”等字样*/
+._1Q2q_tQ9_Eq8YdEHNAHS3F {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    color: #ed31ff;
+    text-shadow: 0 1px 2px rgb(255 255 255 / 80%);
+}
+
+/*“今天”等日期字样*/
+.S2Fu9HxHCA5MaCLGrN2ib ._19LfMT7PFWg2xHOqNjR99q {
+    color: #ed31ff;
+    text-shadow: 0 1px 2px rgb(255 255 255 / 80%);
 }
