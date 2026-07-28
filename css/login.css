@@ -1,0 +1,43 @@
+/*登录界面*/
+
+/*登录界面背景图*/
+.VZ6x_grhNkIYJG__jEEyp.DesktopUI._1NBr0Hdw3P-7Q6P5UXs96Y, .DesktopUI .VZ6x_grhNkIYJG__jEEyp._1NBr0Hdw3P-7Q6P5UXs96Y {
+    background: url(../imgs/login.png);
+    background-position: 0px 0px;
+    background-size: 110%;
+    animation: _3-0VU5eltBRpJo94v_dUzH 60s linear infinite alternate;
+}
+
+/*账户名*/
+._3iVOCDb8eFFTeqiopupsej, ._1448SH49Bc8Zr5Bzzc5qkt {
+    font-style: normal;
+    line-height: 20px;
+    text-align: start;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    letter-spacing: 0;
+    color: #ff4ee4;
+    text-shadow: 0px 0px 4px rgb(255, 255, 255);
+    z-index: 0;
+    opacity: 0;
+    overflow: visible;
+    transition-property: z-index, box-shadow, transform, border, opacity;
+    transition-duration: .24s;
+    transition-timing-function: ease-in-out;
+    white-space: nowrap;
+}
+
+/*account name*/
+._1448SH49Bc8Zr5Bzzc5qkt {
+    color: #fffb00;
+}
+
+/*“Who's playing”字体*/
+._27A5ub1QLLIMmgywKVMg4z ._29VQq5eE-j95L-SafIOc1T ._1Tsmp8q3Beodvix_OSedxk ._2OLQBEFErC3eaxHeD7--LU, ._27A5ub1QLLIMmgywKVMg4z ._29VQq5eE-j95L-SafIOc1T ._2AzA5jDyoM6tuEy24KKCVC ._2OLQBEFErC3eaxHeD7--LU, ._2AWTxE1bvCb0Zj6Q6hSfH4 ._29VQq5eE-j95L-SafIOc1T ._1Tsmp8q3Beodvix_OSedxk ._2OLQBEFErC3eaxHeD7--LU, ._2AWTxE1bvCb0Zj6Q6hSfH4 ._29VQq5eE-j95L-SafIOc1T ._2AzA5jDyoM6tuEy24KKCVC ._2OLQBEFErC3eaxHeD7--LU, ._2WgC4qvD7Pit-l7Xld_YpU ._29VQq5eE-j95L-SafIOc1T ._1Tsmp8q3Beodvix_OSedxk ._2OLQBEFErC3eaxHeD7--LU, ._2WgC4qvD7Pit-l7Xld_YpU ._29VQq5eE-j95L-SafIOc1T ._2AzA5jDyoM6tuEy24KKCVC ._2OLQBEFErC3eaxHeD7--LU {
+    color: #dcdedf00;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 18px 0;
+}

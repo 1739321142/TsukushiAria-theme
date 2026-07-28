@@ -43,6 +43,10 @@
         {
             "MatchRegexString": "Supernav$",
             "TargetCss": "./css/supernavs.css"
+        },
+        {
+            "MatchRegexString": ".*(Sign in|Login|登录|登入|サインイン|ログイン).*",
+            "TargetCss": "./css/login.css"
         }
     ],    
     "UseDefaultPatches": true
