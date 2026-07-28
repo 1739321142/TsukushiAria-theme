@@ -18,7 +18,7 @@
         "Vtuber",
         "Anime"
     ],
-    "version": "1.0.4",
+    "version": "1.0.5",
 
     "Steam-WebKit": "./css/webkit.css",
     "Patches": [

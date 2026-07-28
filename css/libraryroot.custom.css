@@ -138,8 +138,8 @@
 
 /*好友游戏时长字体*/
 ._1GCZAht_W2I3Elndk5cU0- ._1xGH4bGLz6sI7erzB8VWff {
-    color: rgb(228, 109, 210) !important;
-    text-shadow: 0 1px 2px rgb(255, 255, 255);
+    color: rgb(255, 124, 248) !important;
+    text-shadow: 0 0px 4px rgb(0, 0, 0);
 }
 
 /*好友正在玩游戏名*/
@@ -147,14 +147,20 @@
     color: #afff4b;
 }
 
-/*“。。。位好友正在玩”字样*/
+/*“。。。位好友正在玩”等字样*/
 element.style {
 }
 ._39bm0CkBxBjJsnPpAzoZlv .nTb1NqsRSnwl0UTOYn_JA {
-    color: #e887ff;
+    color: #ce04c4;
     font-size: 13px;
     padding-bottom: 2px;
-    text-shadow: 0px 1px 2px rgb(255, 255, 255);
+    text-shadow: 0px 0px 4px rgb(255, 255, 255);
+}
+
+/*“玩过好友”下方离线好友名*/
+.offline .nOdcT-MoOaXGePXLyPe0H {
+    color: #67707b;
+    text-shadow: 0 0px 4px rgb(255, 255, 255);
 }
 
 /*“动态”等字样*/
@@ -165,12 +171,12 @@ element.style {
     display: flex;
     flex-direction: row;
     overflow: hidden;
-    color: #ed31ff;
-    text-shadow: 0 1px 2px rgb(255 255 255 / 80%);
+    color: #dd00d2;
+    text-shadow: 0 0px 4px rgb(255, 255, 255);
 }
 
 /*“今天”等日期字样*/
 .S2Fu9HxHCA5MaCLGrN2ib ._19LfMT7PFWg2xHOqNjR99q {
-    color: #ed31ff;
-    text-shadow: 0 1px 2px rgb(255 255 255 / 80%);
+    color: #c400d6;
+    text-shadow: 0 0px 4px rgb(255, 255, 255);
 }
