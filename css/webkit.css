@@ -1,10 +1,291 @@
-/*定义STEAM商店页 */
-@import url(../global.css);
-
+/*定义商店页背景色 */
 body {
 	background: rgba(0, 0, 0, 0.1) !important;
-}/*定义商店页背景色 */
+}
 
+/*定义社群页背景色 */
 .apphub_background {
     background: rgba(0, 0, 0, 0.1) !important;
-}/*定义社群页背景色 */
+}
+
+/*==========================================================================================*/
+/*⬇️创意工坊具体物品⬇️*/
+
+/*工坊物品名上方导航地址字体*/
+.sharedfiles_item_page_header .breadcrumbs, .sharedfiles_item_page_header .breadcrumbs a, .breadcrumbs, .breadcrumbs a {
+    font-family: "Motiva Sans", Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+/*右侧“Tags”字体*/
+.workshopTagsTitle {
+    color: #ff00fa;
+    text-shadow: 0 0px 4px rgb(255, 255, 255);
+}
+
+/*右侧改动说明字体*/
+.detailsStatNumChangeNotes {
+    padding-top: 5px;
+    font-size: 13px;
+    color: #ff00fa;
+    text-shadow: 0 0px 2px rgb(255, 255, 255);
+}
+
+/*“文件大小”、“发布于”字体*/
+.detailsStatLeft {
+    padding-top: 4px;
+    color: #ff00fa;
+    text-shadow: 0 0px 2px rgb(255, 255, 255);
+}
+
+/*文件大小，发布时间字体*/
+.detailsStatRight {
+    color: #ffffff;
+    padding-top: 4px;
+}
+
+/*“订阅即可下载”字体*/
+.game_area_purchase_game > h1 span {
+    color: #ffffff;
+    font-size: 13px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+}
+
+/*创作者离线名字字体*/
+.persona, a.persona, .persona a, .friend_status_offline, .friend_status_offline div, .friend_status_offline a {
+    color: #ffffff;
+}
+
+/*“查看所有由。。。和其他人创建的 。。。个合集（也许有些被隐藏了）”字体*/
+#mainContents {
+    color: #ffffff;
+    background-repeat: no-repeat;
+    max-width: 950px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    padding-right: 0px;
+    position: relative;
+}
+
+/*
+89,739	不重复访客数
+49,395	当前订阅者
+1,354	当前收藏人数
+数字字体*/
+.stats_table tr > td:first-child {
+    width: 50px;
+    color: #ffaffe;
+    padding-right: 10px;
+    vertical-align: top;
+    text-align: right;
+    text-shadow: 0 0px 4px rgb(0 0 0);
+}
+
+/*“不重复访客数
+当前订阅者
+当前收藏人数”字体*/
+.stats_table {
+    border: none;
+    color: #ffffff;
+}
+
+/*描述字样*/
+.workshopItemDescription {
+    font-size: 14px;
+    word-wrap: break-word;
+    margin-top: 10px;
+    line-height: 20px;
+    padding-bottom: 16px;
+    padding-right: 8px;
+    color: #ffffff;
+}
+/*“描述”字体*/
+.workshopItemDescriptionTitle {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 3px 0 16px 0;
+}
+
+/*“在。。的。个合集中”字体*/
+.parentCollectionsTitle {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 3px 0 10px 0;
+}
+
+/*底下评论时间字样*/
+.commentthread_comment_timestamp {
+    color: rgb(240 198 255 / 80%);
+    text-shadow: 0 0px 3px rgb(0 0 0);
+}
+
+/*==========================================================================================*/
+/*⬇️社区创意工坊主页⬇️*/
+
+/*创意工坊最新消息时间字样*/
+.byline {
+    font-size: 14px;
+    color: rgb(240 198 255 / 80%);
+    text-shadow: 0 0px 3px rgb(0 0 0);
+}
+
+/*文章字体*/
+.detailBox P {
+    margin-top: 6px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+}
+
+/*标题字体*/
+.detailBox .headline, .detailBox .headline a {
+    font-size: 24px;
+    color: #de92ff;
+    font-family: "Motiva Sans Light", Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    line-height: 22px;
+    font-weight: normal;
+    text-shadow: 0 0px 3px rgb(0 0 0);
+}
+
+/*==========================================================================================*/
+/*⬇️讨论区⬇️*/
+
+/*讨论区公告字样*/
+.steam_discussions_intro {
+    color: #f6cbff;
+}
+.steam_discussions_intro b {
+    color: #eb00ff;
+    font-weight: 700;
+}
+
+/*“欢迎来到 Steam 讨论区”字体*/
+.grouppage_content_area h2, a.large_title, h2.large_title {
+    color: #ffffff;
+    font-size: 1.7em;
+    font-weight: normal;
+    margin: 0;
+    text-decoration: none;
+}
+
+/*steam论坛⬇️*/
+/*标签选中样式*/
+.group_tab.active {
+    margin-top: 0px;
+    height: 34px;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    background: #417B9C;
+    background: -webkit-linear-gradient(top, #5AA9D6 5%, #417B9C 95%);
+    background: linear-gradient(to bottom, #dd71ffcf 5%, #e698ecdb 95%);
+}
+/*下方小条*/
+.discussions_header {
+    border-bottom: 5px solid #e88fe200;
+}
+/*标签未选中背景*/
+.group_tab {
+    background-color: rgb(0 0 0 / 50%);
+    border-radius: 2px 2px 0 0;
+    color: #dadada;
+    display: inline-block;
+    height: 29px;
+    line-height: 29px;
+    padding-inline: 12px;
+}
+/*标签hover样式*/
+a.group_tab:hover {
+    background-color: rgb(173 102 244 / 80%);
+    color: #ffffff;
+}
+
+/*游戏名字样*/
+.recent_game_discussion_name {
+    color: #edc3ff;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 0 0px 3px rgb(0 0 0);
+}
+/*“。。个讨论串”字体*/
+.recent_game_discussion_count {
+    color: #efccff;
+    text-shadow: 0 0px 3px rgb(0 0 0);
+}
+
+/*“更多游戏论坛”字体*/
+.discussions_view_more_link a {
+    color: #ffffff;
+    font-size: 11px;
+}
+
+/*“论坛”等字体*/
+.discussions_forumlist_header {
+    font-size: 11px;
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+/*“。。分钟前”等字体*/
+.discussions_forum_row.unread .discussions_forumlist_topiccount, .discussions_forum_row.unread .discussions_forumlist_lastpost {
+    color: #ffc4fa;
+    text-shadow: 0 0px 3px rgb(0 0 0);
+}
+
+/*论坛列表中名字字样*/
+.discussions_forumlist_forumname {
+    color: #feb4ff;
+    text-shadow: 0 0px 3px rgb(0 0 0);
+}
+
+/*游戏论坛⬇️*/
+/*浏览依据*/
+body {
+    background: #1b2838;
+    text-align: left;
+    color: #f0c4ff;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+/*帖子背景色*/
+.forum_topic {
+    position: relative;
+    height: 48px;
+    background-color: rgb(178 126 181 / 39%);
+    margin-bottom: 2px;
+    padding-inline: 5px 15px;
+}
+
+/*帖主名字*/
+.forum_topic_op {
+    color: #eaa6ff;
+    font-size: 11px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-shadow: 0 0px 3px rgb(0 0 0);
+}
+
+/*最后回复时间字样*/
+.forum_topic_lastpost {
+    font-size: 11px;
+    float: right;
+    padding-right: 28px;
+    color: #ffffff;
+}
+
+/*游戏名hover*/
+a.whiteLink:hover, .whiteLink:hover, a.linkStandard:hover, a.linkTitle:hover, a.underlinedLink:hover, span.underlinedLink:hover {
+    color: #f800ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+

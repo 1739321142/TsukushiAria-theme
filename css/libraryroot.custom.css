@@ -8,16 +8,22 @@
     font-weight: 300;
 }/* 添加字体 */
 
+/*整体背景，从body数第五层*/
 ._3mz8wQ6Q44B8P7pzPP4Iyw{
 	background-image: url("../imgs/ShopBG.png");
 	background-position: center center;
 	background-size: cover;
-} /*整体背景，从body数第五层*/
+} 
 
+/*库列表顶部第一层“首页”外框*/
 ._2TKEazUUS3TlniZfpc8OOe {
 	background: transparent !important;
-}/*库列表顶部第一层“首页”外框*/
+}
 
+/*余额数字*/
+._3yD46y5pd3zOGR7CzKs0mC ._2jphjrSifC6orDT4g_7Wd {
+    color: #ffffff;
+}
 
 ._3Z7VQ1IMk4E3HsHvrkLNgo, ._2CmrnGY-Amtd83ScJkFvx2, .UkR3sY319PuaUNuUWks2K, ._3vCzSrrXZzZjVJFZNg9SGu {
 	background: rgba(0, 0, 0, 0.5) !important;
@@ -163,6 +169,12 @@ element.style {
     text-shadow: 0 0px 4px rgb(255, 255, 255);
 }
 
+/*在线好友名*/
+.online .nOdcT-MoOaXGePXLyPe0H {
+    color: #00a4ff;
+    text-shadow: 0 0px 2px rgb(255, 255, 255);
+}
+
 /*“动态”等字样*/
 ._1Q2q_tQ9_Eq8YdEHNAHS3F {
     font-size: 14px;
@@ -179,4 +191,28 @@ element.style {
 .S2Fu9HxHCA5MaCLGrN2ib ._19LfMT7PFWg2xHOqNjR99q {
     color: #c400d6;
     text-shadow: 0 0px 4px rgb(255, 255, 255);
+}
+
+/*"完后总结"字体*/
+.P_gQ8X-yCsgXeXpP68KS0 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    color: #f3a5ff;
+    line-height: 28px;
+}
+
+/*“已达成”字体*/
+.UVeN0kaD3zv1feMj_mMw5 .QCKBqF2k_sRLcXJ5qQIEl {
+    color: #ffef19;
+}
+
+/*“13.3% 的玩家拥有此成就”字体*/
+._1j_gja8bHXjiS-BeSQk8hb ._1s_9cSxUjb4609MSH0EjWH .VKo9pLPbwpF3xIzL8Wnou {
+    flex: 0 1 auto;
+    color: #aea6a6;
+    font-size: 13px;
 }
