@@ -216,3 +216,106 @@ element.style {
     color: #aea6a6;
     font-size: 13px;
 }
+
+
+/*==================================================================================*/ 
+/*⬇️下载页⬇️*/ 
+
+/*下载速度数值数字字体*/
+._5TdA4FjU9OYsTIaHzloD .eXF8xL2LUtzeWMbK-FSRz {
+    font-family: "Motiva Sans", Helvetica, sans-serif;
+    font-style: normal;
+    text-align: start;
+    text-decoration: none;
+    text-indent: 0;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: .5px;
+    text-transform: none;
+    color: #f4c6ff;
+    white-space: nowrap;
+    text-shadow: 0 0px 2px rgb(0 0 0);
+}
+
+/*下载量百分比数字字体*/
+._1SyggnJY6qbRSmbZpkK3-H .FuJLsEk_Umr68UjGanMno {
+    color: #d06fff;
+}
+._1SyggnJY6qbRSmbZpkK3-H {
+    max-width: 33vw;
+    font-family: "Motiva Sans", Helvetica, sans-serif;
+    font-style: normal;
+    text-align: start;
+    text-decoration: none;
+    text-indent: 0;
+    text-shadow: none;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #bf3aff;
+    flex-basis: 20%;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+
+/*预估剩余时间字样*/
+._2sCvZTD6ZTZz3p9_ekH_gI ._1r3ouwFT2-tsTAcnXYZ6NU ._3nx-k9xXUVgejG1BIAc84r {
+    flex-grow: 1;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffb4fe;
+    overflow: hidden;
+    display: flex;
+    text-shadow: 0 0px 2px rgb(0 0 0);
+}
+
+/*已下载量*/
+.sv3ZHPWbrD7yjwx5Mi3u5 ._1dHjjSl-57o1KQsQ1m1HSA._3WavcSX0NkHlBh5fICWKyB {
+    color: #b762ff;
+}
+
+/*总下载量*/
+.sv3ZHPWbrD7yjwx5Mi3u5 ._1dHjjSl-57o1KQsQ1m1HSA {
+    color: #000000;
+    white-space: nowrap;
+}
+
+/*“正在下载数据”字体*/
+._22WcrscaQSqK56PQKgf5YG ._3a973VY2X3US_cZqA9ZgNF {
+    flex-grow: 1;
+    text-align: left;
+    text-transform: none;
+    color: #f1acff;
+    font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*“即将进行”字体*/
+.qq2xItSXjpCsNrcxyPJtO .ROxNrcM6LrA4aUyH8IpFp .TK9wvF55dyA6RcOclozC8, .mw7VZNUZJWOhSrh3-kiym .ROxNrcM6LrA4aUyH8IpFp .TK9wvF55dyA6RcOclozC8 {
+    color: #ff8ffd;
+}
+
+/*游戏名字样*/
+._1VNuYHM6BPBOJspC6zPf5r ._35eOQ6EeVHNV5HGBrJ1-Vu {
+    font-family: "Motiva Sans", Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: start;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    letter-spacing: 0;
+    color: #c600ff;
+    font-weight: medium;
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellip;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
