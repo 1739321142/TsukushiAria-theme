@@ -15,6 +15,19 @@
 	background-size: cover;
 } 
 
+/*头顶“steam”等字体*/
+._2UyOBeiSdBayaFdRa39N2O {
+    color: #ffffff;
+    font-size: 12px;
+    text-shadow: 0 0px 2px rgb(189 0 255);
+    padding: 6px 4px;
+    transition: color .15s ease-out;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    height: 100%;
+}
+
 /*库列表顶部第一层“首页”外框*/
 ._2TKEazUUS3TlniZfpc8OOe {
 	background: transparent !important;
@@ -23,6 +36,7 @@
 /*余额数字*/
 ._3yD46y5pd3zOGR7CzKs0mC ._2jphjrSifC6orDT4g_7Wd {
     color: #ffffff;
+    text-shadow: 0 0px 2px rgb(189 0 255);
 }
 
 ._3Z7VQ1IMk4E3HsHvrkLNgo, ._2CmrnGY-Amtd83ScJkFvx2, .UkR3sY319PuaUNuUWks2K, ._3vCzSrrXZzZjVJFZNg9SGu {

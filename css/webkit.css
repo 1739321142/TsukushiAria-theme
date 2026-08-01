@@ -9,6 +9,78 @@ body {
 }
 
 /*==========================================================================================*/
+/*⬇️商店页⬇️*/
+
+/*打折原价字样*/
+body.v7 .discount_prices .discount_original_price {
+    color: #ffffff;
+    font-size: 11px;
+}
+/*现价字样*/
+body.v7 .discount_prices > div {
+    font-size: 14px;
+    color: #ffffff;
+    padding-left: 0;
+    text-shadow: 0 0px 2px rgb(192 0 255);
+}
+
+/*“热门新品”等字体*/
+.home_tab_button {
+    font-size: 20px;
+    color: #ffffff;
+    opacity: .7;
+    font-weight: 500;
+    background: transparent;
+    display: inline-block;
+    cursor: pointer;
+    text-shadow: 0 0px 2px rgb(192 0 255);
+}
+/*下方小条*/
+.home_tab_button.active {
+    opacity: 1;
+    border-bottom: 3px solid #eca4ff;
+}
+
+/*==========================================================================================*/
+/*⬇️商店具体游戏页⬇️*/
+
+/*DLC名字字样*/
+.game_area_dlc_row.even:hover, .game_area_dlc_row.odd:hover {
+    background-color: #a15cb342;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*简介字体*/
+.game_description_column {
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 16px;
+}
+/*重点字*/
+body.v6 .game_area_description h2.bb_tag {
+    margin-top: 18px;
+    margin-bottom: 0px;
+    background-image: none;
+    font-size: 15px;
+    color: #aec4ff;
+    text-transform: none;
+    letter-spacing: 0px;
+    text-shadow: 0 0px 2px rgb(255 0 210);
+}
+
+/*“最低配置”等字体*/
+.widestore .game_area_sys_req strong, .widestore .album_metadata_chunk_name {
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-inline-end: 4px;
+    text-shadow: 0 0px 4px rgb(255 255 255);
+}
+
+/*==========================================================================================*/
 /*⬇️创意工坊具体物品⬇️*/
 
 /*工坊物品名上方导航地址字体*/
@@ -140,6 +212,13 @@ body {
     font-size: 14px;
     line-height: 19px;
     color: #ffffff;
+}
+/*顶部小标题*/
+.subtitle {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 20px;
+    margin-bottom: 20px;
 }
 
 /*标题字体*/
@@ -287,5 +366,127 @@ a.whiteLink:hover, .whiteLink:hover, a.linkStandard:hover, a.linkTitle:hover, a.
     color: #f800ff;
     text-decoration: none;
     cursor: pointer;
+}
+
+/*==========================================================================================*/
+/*⬇️愿望单页面⬇️*/
+
+/*搜索框背景*/
+.DFhzzTUhoEs- .QoJP0e0vzFA- {
+    color: #fff;
+    background: #0000004f;
+    border: 2px solid #0000001a;
+    border-radius: 3px;
+    flex: 1;
+    margin-inline-end: 20px;
+    padding: 7px 10px;
+}
+/*“选项”框背景*/
+.PzuczM6OUSY- {
+    cursor: pointer;
+    color: #fff;
+    white-space: nowrap;
+    background: #00000063;
+    border: 0;
+    outline: none;
+    align-items: center;
+    height: 38px;
+    padding: 10px 14px 8px;
+    font-family: Motiva Sans, sans-serif;
+    font-size: 13px;
+    transition: background-color .2s ease-in-out;
+    display: flex;
+}
+
+/*游戏列表别未经背景*/
+.PE-3oq-yIvg- {
+    box-sizing: border-box;
+    color: #ffffff;
+    height: var(--item-height);
+    margin-bottom: var(--item-gap);
+    background: linear-gradient(340deg, #cf68e68c 10%, #546e8400 50%, #d3a9dd87 80%, #c8a3e770 95%);
+    border: 1px solid #ffffff05;
+    grid-template:
+        "dragger capsule title remove" 30px
+        "dragger capsule mid mid" 32px
+        "dragger capsule lower purchase" / fit-content(0) 288px 1fr auto;
+    gap: 2px 12px;
+    padding-block: 12px;
+    padding-inline: 0 12px;
+    font-family: Motiva Sans, sans-serif;
+    font-weight: 200;
+    transition: padding .3s, height .3s, margin-bottom .3s;
+    display: grid;
+    position: relative;
+    box-shadow: 0 0 12px #00000078;
+}
+
+/*游戏名字样*/
+.PE-3oq-yIvg- .I8vuMMV-osE- {
+    color: #fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    min-width: 0;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.3;
+    text-decoration: none;
+    overflow: hidden;
+    text-shadow: 0 0px 4px rgb(0 0 0);
+}
+
+/*“我的类别”字体*/
+.JmLh4Njn6Xg- {
+    color: #ffffff;
+    text-transform: uppercase;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-inline-end: 1ch;
+    padding-top: 4px;
+    font-size: 11px;
+}
+
+/*+框*/
+.EEBSJHM2XHw- {
+    background: #9500ff52;
+    align-items: center;
+    height: 24px;
+    margin-inline-start: 2px;
+    display: flex;
+}
+.Vy3rNuKLunU- {
+    cursor: pointer;
+    color: #ffffff;
+    white-space: nowrap;
+    background: 0 0;
+    border: 1px solid #485d77;
+    border-radius: 2px;
+    flex-shrink: 0;
+    align-items: center;
+    gap: 4px;
+    min-width: 0;
+    max-width: 30ch;
+    padding: 5px 8px;
+    font-size: 11px;
+    display: flex;
+    overflow: hidden;
+}
+/*用户标签框*/
+.U3ndjc3qoW8- {
+    color: #ffffff;
+    cursor: pointer;
+    background: #9500ff52;
+    border: none;
+    border-radius: 2px;
+    padding: 4px 6px;
+    font-family: inherit;
+    font-size: 11px;
+}
+
+/*‘特别好评’等字样*/
+._0uIJq8Pia8Q-.ojEsJSejN5U- {
+    color: #ad00b7;
+    text-shadow: 0 0px 3px rgb(255 255 255);
+    font-weight: bold;
 }
 

@@ -23,6 +23,14 @@
     background: rgb(90 71 90 / 25%) !important;
 }
 
+/*未读消息离线好友名*/
+.offline .nOdcT-MoOaXGePXLyPe0H {
+    color: #000000;
+}
+.offline ._2Ri005Wg_uXDTa71kdRbcN, .offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a, .offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover, .offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active, .offline ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited {
+    color: #000000;
+}
+
 /*在线好友名*/
 .online .nOdcT-MoOaXGePXLyPe0H {
     color: #00e5ff;
@@ -53,8 +61,11 @@
 
 /*正在游戏游戏名*/
 .ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN, .ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a, .ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:hover, .ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:active, .ingame ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN a:visited, .ingame._1BbOegz8bYL7iPzgYpOgQI ._2Ri005Wg_uXDTa71kdRbcN {
-    color: #ffccff;
     text-shadow: 0 0px 3px rgb(162 0 255);
+}
+.ingame.awayOrSnooze ._2Ri005Wg_uXDTa71kdRbcN, .ingame ._2Ri005Wg_uXDTa71kdRbcN, .ingame ._2Ri005Wg_uXDTa71kdRbcN a, .ingame ._2Ri005Wg_uXDTa71kdRbcN a:hover, .ingame ._2Ri005Wg_uXDTa71kdRbcN a:active, .ingame ._2Ri005Wg_uXDTa71kdRbcN a:visited {
+    color: #8eff00;
+    text-shadow: 0 0px 3px rgb(175 0 255);
 }
 
 /*好友正在玩的游戏组*/
