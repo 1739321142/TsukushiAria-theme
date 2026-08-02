@@ -490,3 +490,367 @@ a.whiteLink:hover, .whiteLink:hover, a.linkStandard:hover, a.linkTitle:hover, a.
     font-weight: bold;
 }
 
+/*==========================================================================================*/
+/*⬇️账户明细页面⬇️*/
+
+/*右侧选中选项背景*/
+.two_column .nav_item.active {
+    background: linear-gradient(to right, #793698, transparent);
+    position: relative;
+}
+/*hover效果*/
+.two_column .nav_item:hover {
+    position: relative;
+    background: linear-gradient(to right, #793698, transparent);
+}
+/*竖条*/
+.two_column .nav_item:hover {
+    &::after {
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+        background: rgb(232, 26, 255);
+    }
+}
+.two_column .nav_item.active {
+    &::after {
+        content: '';
+        position: absolute;
+        background: #c400ff;
+        width: 2px;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+}
+
+/*通知设置标签背景*/
+.qUpbU-KUpOY-:hover {
+    background: linear-gradient(90deg, #793698, #0000)!important;
+    position: relative;
+}
+.qUpbU-KUpOY-.XzRPQlqCATI- {
+    background: linear-gradient(90deg, #793698, #0000);
+    position: relative;
+}
+/*竖条*/
+.qUpbU-KUpOY-:hover:after {
+    content: "";
+    background: rgb(232, 26, 255);
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.qUpbU-KUpOY-.XzRPQlqCATI-:after {
+    content: "";
+    background: rgb(232, 26, 255);
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*选中字体*/
+a:hover {
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 0 0px 3px rgb(159 0 255);
+}
+/*未选中字体*/
+.qUpbU-KUpOY- {
+    color: #fff;
+    text-shadow: 0 0px 3px rgb(159 0 255);
+    padding: 15px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+
+/*账户明细页字样*/
+.account_setting_sub_block {
+    width: 50%;
+    padding: 1em;
+    float: left;
+    color: #ffccf9;
+    text-shadow: 0 0px 3px rgb(159 0 255);
+    box-sizing: border-box;
+}
+/*“ - 了解更多关于永久删除帐户及其相关资料的信息”字体*/
+.account_setting_sub_block_long {
+    padding: 1em;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+/*商店偏好页字样*/
+.account_setting_parenthetical {
+    color: #ffffff;
+    text-shadow: 0 0px 3px rgb(159 0 255);
+    display: block;
+    margin-left: 21px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 16px;
+}
+body.v6 {
+    position: relative;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-shadow: 0 0px 3px rgb(159 0 255);
+    font-size: 12px;
+}
+
+/*通知设置页“通知方式”等字体*/
+.kPbGTI-cxDc- {
+    color: #ffffff !important;
+    text-shadow: 0 0px 3px rgb(159 0 255);
+}
+.RQHfvQfws98- ._8bwl-kXH2ko- {
+    color: #ffffff!important;
+    text-shadow: 0 0px 3px rgb(159 0 255);
+    font-size: 12px;
+}
+.YCtu14HmguE- .K0hXO6Sz8fg- {
+    color: #ffffff!important;
+    text-shadow: 0 0px 3px rgb(159 0 255);
+    font-size: 12px;
+}
+
+/*游戏测试页字体*/
+.ivDcgq3gJRc- {
+    color: #ffffff !important;
+    text-shadow: 0 0px 3px rgb(159 0 255);
+}
+.eXIewM0McHY- {
+    color: #ffffff !important;
+    text-shadow: 0 0px 3px rgb(159 0 255);
+}
+.-xgR7POpl2U- {
+    color: #ffffff !important;
+    text-shadow: 0 0px 3px rgb(159 0 255);
+}
+.a8SIkNUo1Go- .eQVlQHzNSgI- {
+    color: #ffffff;
+    text-shadow: 0 0px 3px rgb(159 0 255);
+}
+
+/*==========================================================================================*/
+/*⬇️钱包页面⬇️*/
+
+/*国区字体*/
+.dselect_container button.trigger, .dselect_container button.activetrigger {
+    display: block;
+    box-sizing: content-box;
+    text-align: inherit;
+    cursor: pointer;
+    color: #b300ff;
+    text-shadow: 0 0px 3px rgb(255 255 255);
+    padding: 0 30px 0 8px;
+    font-size: 13px;
+    line-height: 21px;
+    border: 0;
+    border-radius: 3px;
+    text-decoration: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+}
+/*hover按钮*/
+.dselect_container button.trigger:hover {
+    background: linear-gradient(-60deg, #73419b 5%, #c767f5 95%);
+}
+
+/*“当前钱包余额”字体*/
+.accountRow.accountBalance {
+    margin-top: 15px;
+    height: 22px;
+    line-height: 22px;
+    margin-bottom: 7px;
+    color: #ffffff;
+}
+/*查看账户明细等字样*/
+.block a.linkbar {
+    height: 22px;
+    padding-top: 4px;
+    padding-left: 8px;
+    line-height: 17px;
+    background: rgba(103, 193, 245, 0.1);
+    color: #ffffff;
+    border-radius: 1px;
+    display: block;
+    margin: 8px 0;
+}
+/*hover按钮*/
+.block a.linkbar:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background: linear-gradient(-60deg, #8f419b 5%, #b067f5 95%);
+}
+
+/*“更多详情，请参阅”字体*/
+.addfunds_footer {
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+/*==========================================================================================*/
+/*⬇️编辑个人资料页面⬇️*/
+
+/*“蝴蝶飞咖啡 » 编辑个人资料”的 » */
+.profile_small_header_arrow {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+/*“返回您的个人资料”字体*/
+._1YOt2792y012GM8bOQs0kh a {
+    color: #fff !important;
+    text-shadow: 0 0px 3px rgb(206 0 255);
+    text-decoration: underline;
+}
+
+/*选中标签背景*/
+._2kqKZFxhF8XvzaoAekjV7m ._33Kl16vpskBOQpwINGA8ah ._3rtIpqfC_9VWz4DRSTPach {
+    display: block;
+    line-height: 30px;
+    background-image: linear-gradient(to left, transparent, transparent 50%, #ffbdff8f 50%, #c000ffb3) !important;
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    border-radius: 3px;
+    transition-property: background-position, color, background-color;
+    transition-duration: .15s;
+    transition-timing-function: ease-in;
+    color: #fff !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+._2kqKZFxhF8XvzaoAekjV7m ._33Kl16vpskBOQpwINGA8ah ._3rtIpqfC_9VWz4DRSTPach._3H7Awq1oAhxrdDo3ANR4mu {
+    background-color: #3d445000 !important;
+    background-position: 0 0;
+    color: #fff;
+}
+/*选中标签字体*/
+._2kqKZFxhF8XvzaoAekjV7m ._33Kl16vpskBOQpwINGA8ah ._3rtIpqfC_9VWz4DRSTPach._3H7Awq1oAhxrdDo3ANR4mu {
+    background-color: #004bcb00;
+    background-position: 0 0;
+    color: #fff !important;
+    text-shadow: 0 0px 3px rgb(206 0 255);
+}
+
+/*字体*/
+.DialogBodyText {
+    color: #ffffff !important;
+    text-shadow: 0 0px 3px rgb(206 0 255);
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+    margin-bottom: 32px;
+    user-select: none;
+}
+.DialogLabel, .DialogLabelStrong {
+    font-weight: 300;
+    color: #ffffff !important;
+    text-shadow: 0 0px 3px rgb(206 0 255);
+    text-transform: uppercase;
+    line-height: 19px;
+    font-size: 13px;
+    margin-bottom: 4px;
+    user-select: none;
+    letter-spacing: initial;
+}
+.DialogLabelExplainer {
+    text-transform: none;
+    text-align: center;
+    font-weight: 300;
+    color: #ffffff !important;
+    text-shadow: 0 0px 3px rgb(206 0 255);
+    font-size: 13px;
+    margin-top: 4px;
+}
+.uwqwoAlIVWyJ8l71i77-i ._2CGYg9che0ONznDOoGhp9Y {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+    color: #ffffff !important;
+    text-shadow: 0 0px 3px rgb(206 0 255);
+    padding: 0px 0px 6px 10px;
+    border-bottom: 2px solid rgba(228, 228, 228, .1);
+}
+.DialogToggle_Label {
+    color: #ffffff !important;
+    text-shadow: 0 0px 3px rgb(206 0 255);
+}
+._2sArlom6cS_SfcD2RzzHW2 {
+    color: #ffffff !important;
+    text-shadow: 0 0px 3px rgb(206 0 255);
+}
+._2ODUBJas15JwSZWN9fWb07 ._3Y40HABkqaQQVn7lIX0Rm9 {
+    flex: 1;
+    padding: 13px !important;
+    font-size: 14px;
+    color: #ffffff !important;
+    text-shadow: 0 0px 3px rgb(206 0 255);
+    min-width: 0;
+}
+._2ODUBJas15JwSZWN9fWb07 ._3Y40HABkqaQQVn7lIX0Rm9 .k5TyflBXF_FmpbYNKfggk {
+    color: #fab4ff !important;
+    font-size: 12px;
+}
+.aUFBJvbETNq6EL-n8KopY {
+    color: #ffffff !important;
+    text-shadow: 0 0px 3px rgb(206 0 255);
+}
+.ProfilePrivacyRoot {
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    color: #ffffff !important;
+    text-shadow: 0 0px 3px rgb(206 0 255);
+    font-size: 14px;
+    line-height: 20px;
+}
+/*“隐私设置”页抬头*/
+.ProfilePrivacyHeader {
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 500;
+    color: #66d4f4;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+/*"概要"输入字*/
+._2ipSt29jAqoPXf-_iTAL0- {
+    resize: none;
+    overflow: hidden;
+    outline: none;
+    color: #ffffff !important;
+    font-size: 14px;
+    line-height: 1.4em;
+    box-shadow: inset 1px 1px 0px rgba(0, 0, 0, .6666666667);
+    border: none;
+    background-color: rgba(0, 0, 0, .25);
+    padding: 12px;
+    width: calc(100% - 24px);
+}
+/*输入框中字*/
+body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.DialogTextInputBase:not(:disabled):hover, body.profile_edit_page input.DialogTextInputBase:disabled:hover, body.profile_edit_page input.DialogTextInputBase:focus {
+    box-shadow: inset 1px 1px 0px rgba(0, 0, 0, .6666666667);
+    border: none;
+    background-color: rgba(0, 0, 0, .25);
+    color: #fff !important;
+}
+.DialogTextInputBase, ._DialogInputContainer {
+    background: rgba(59, 63, 72, 0.5);
+    color: #ffffff !important;
+}
