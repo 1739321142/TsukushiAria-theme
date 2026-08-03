@@ -48,13 +48,13 @@ body.v7 .discount_prices > div {
 .game_area_dlc_row.even:hover, .game_area_dlc_row.odd:hover {
     background-color: #a15cb342;
     text-decoration: none;
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 /*简介字体*/
 .game_description_column {
     font-size: 14px;
-    color: #ffffff;
+    color: #ffffff !important;
     margin-top: 16px;
 }
 /*重点字*/
@@ -63,7 +63,7 @@ body.v6 .game_area_description h2.bb_tag {
     margin-bottom: 0px;
     background-image: none;
     font-size: 15px;
-    color: #aec4ff;
+    color: #aec4ff !important;
     text-transform: none;
     letter-spacing: 0px;
     text-shadow: 0 0px 2px rgb(255 0 210);
@@ -78,6 +78,47 @@ body.v6 .game_area_description h2.bb_tag {
     display: inline-block;
     margin-inline-end: 4px;
     text-shadow: 0 0px 4px rgb(255 255 255);
+}
+
+/*“完成您的合集”字体*/
+.ds_flag {
+    position: absolute;
+    /* left: 0; */
+    /* top: 14px; */
+    font-size: 10px;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    height: 18px;
+    line-height: 19px;
+    /* padding: 0 0 0 18px; */
+    white-space: nowrap;
+    z-index: 5;
+}
+
+/*评测发布日期*/
+._36PINioDf9qx6L5QCpuW3l, ._2ifjfmA4V1OqEf39_KX1iV, ._1flaV2raNUjjfHa0TAffZY {
+    color: #ffffff !important;
+    opacity: .6;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+/*"147 人觉得这篇评测有价值"字体*/
+.hIgoBpQW6F1kNF7Bs7Gna ._37ICOYBDy-RisYkzNGWFDX {
+    color: #ffffff !important;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+}
+/*评测内容中的字体*/
+._7-m3PA_FStk99zsZUPYX- .uxZHwbCMxnLnMBo894hNi {
+    width: 100%;
+    max-height: 225px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    position: relative;
+    font-size: 13px;
+    line-height: 17px;
+    color: #ffffff !important;
 }
 
 /*==========================================================================================*/
