@@ -107,13 +107,15 @@
 }/*游戏分组标签第一类*/
 
 /*顶栏“商店”栏选中效果*/
+/*文字*/
 ._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ {
     color: #d51aff;
     text-shadow: 0px 0px 1px #ff1ac6;
     transition: text-shadow .15s ease-out;
     font-weight: 500;
     cursor: pointer;
-}/*文字*/
+}
+/*下方小横杆*/
 ._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ::after {
     content: "";
     display: block;
@@ -122,7 +124,7 @@
     background: #ff1ae8;
     border-radius: 3px;
     animation: _2wrHkBHr-Qiwn2S5A_vFDw .1s;
-}/*下方小横杆*/
+}
 
 ._2-O4ZG0KrnSrzISHBKctFQ._5YTBr7WwIfzVU_3nUtAph {
     color: #8a748a;
@@ -164,7 +166,7 @@
 
 /*好友正在玩游戏名*/
 .ingame.awayOrSnooze ._2Ri005Wg_uXDTa71kdRbcN, .ingame ._2Ri005Wg_uXDTa71kdRbcN, .ingame ._2Ri005Wg_uXDTa71kdRbcN a, .ingame ._2Ri005Wg_uXDTa71kdRbcN a:hover, .ingame ._2Ri005Wg_uXDTa71kdRbcN a:active, .ingame ._2Ri005Wg_uXDTa71kdRbcN a:visited {
-    color: #afff4b;
+    color: #afff4b !important;
 }
 
 /*“。。。位好友正在玩”等字样*/
